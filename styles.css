@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 7.5rem;
+    margin-top: 0;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+.bitoh {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+
+.bitoh-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 40%;
+}
+
+.bitoh-texto .nombre {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.bitoh-texto .titulo {
+    font-size: 10rem;
+    margin: 0;
+}
+
+.borde-perfiles {
+    border: 1px solid gray;
+}
+
+.dispositivo {
+    height: 500px;
+    width: 96%;
+}
+
+.familia {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem;
+}
+
+.foto-perfil {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.foto-perfil-bitoh {
+    width: 52% !important;
+}
+
+.foto-perfil-hijo {
+    width: 60% !important;
+}
+
+header {
+    border: 3px solid cyan;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.header-h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: white;
+}
+
+.hijos {
+    width: 100% !important;
+    padding: .5rem;
+}
+
+.hijos .perfil {
+    display: flex;
+    padding: .5rem;
+}
+
+.hijos .perfil-texto {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid gray;
+    padding: .5rem;
+
+}
+
+.hijos .perfil-texto .nombre {
+    font-size: .9rem;
+    margin: 0;
+}
+
+.hijos .perfil-texto .titulo {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.logo {
+    width: 100%;
+    height: 800px;
+}
+
+.nietos {
+    width: 90%;
+}
+
+.nietos .perfil {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    margin: .5rem;
+    width: 5%;
+}
+
+.nietos .perfil-texto {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid gray;
+    padding: .5rem;
+    margin: 0;
+
+}
+
+.nietos .perfil-texto .nombre {
+    font-size: .5rem;
+    margin: 0;
+}
+
+.nietos .perfil-texto .titulo {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.pagina {
+    text-align: justify;
+    border: 1px solid gray;
+    padding: 3rem;
+    width: 60%;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+
+}
+
+.perfiles-flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.perfil-hijo {
+    width: 25%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.perfil-nieto {
+    width: 12.5% !important;
+}
+
+.personaje {
+    display: flex;
+}
+
+.personaje .columna-1 {
+    width: 20%;
+    border: 1px solid gray;
+}
+
+.publicidad_01 {
+    height: 300px;
+    width: 300px;
+}
+
+.nema17-1 {
+    height: 100%;
+    width: 100%;
+}
+
+.romanesco-regular {
+    font-family: "Romanesco";
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Ultra pequeños: hasta 281px */
+@media (max-width: 280px) {
+
+    .anzuelo {
+        width: 100% !important;
+    }
+
+    .caja-pregunta {}
+
+    .caja-pregunta h2 {
+        font-size: 1.5rem;
+    }
+
+    .caja-pregunta li {
+        border: 0px solid red;
+        display: flex;
+        align-items: center;
+        height: 30px;
+    }
+
+    .caja-pregunta p {
+        border: 0px solid red;
+        width: 125px;
+    }
+
+    .caja-pregunta-precandidatos li {
+        border: 0px solid red;
+        display: flex;
+        align-items: center;
+        height: 30px;
+    }
+
+    .caja-pregunta-precandidatos p {
+        border: 0px solid red;
+        position: relative;
+        left: -2rem;
+        width: 125px;
+    }
+
+    .color-oscuro-1 {
+        color: black;
+    }
+
+    .color-oscuro-2 {
+        color: navy;
+    }
+
+    .concurso {
+        padding: 1rem;
+        background: linear-gradient(135deg, white, #203a43, red);
+        animation: gradientShift 15s ease infinite;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .7rem;
+        border: 5px solid gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .concurso button {
+        width: 10rem;
+        height: 5rem;
+        font-size: 2rem;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .concurso .fundaciones {
+        width: 75%;
+    }
+
+    .concurso .input {
+        width: 60% !important;
+        left: 5rem;
+    }
+
+    .concurso label {
+        width: 40% !important;
+    }
+
+    .concurso li {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .concurso .linea {
+        border: 0px solid red;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center !important;
+    }
+
+    .concurso ul {
+        width: 90%;
+    }
+
+    @keyframes gradientShift {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .dispositivo {
+        width: 71%;
+        height: 69vh;
+    }
+
+    .dispositivo-pc {
+        border: 50px solid yellow;
+        display: none;
+    }
+
+    .dispositivo-telefono {
+        border: 25px solid cyan;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    #estadisticas-1 {
+        display: none;
+        border: 25px solid gold;
+    }
+
+    #fidelizacion-1 {
+        display: none;
+    }
+
+    footer {
+        background: radial-gradient(circle, crimson 0%, black 100%);
+        overflow: hidden;
+        color: white;
+        font-size: .65rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .cianware {
+        width: 8rem;
+        margin-top: .8rem;
+    }
+
+    footer p {
+        margin: .2rem;
+    }
+
+    .fundaciones input {
+        position: absolute;
+        right: 1rem;
+    }
+
+    .fundaciones li {
+        border: 0px solid red;
+        display: flex;
+        align-items: center;
+        height: 30px;
+        position: relative;
+        left: -1rem;
+    }
+
+    header {
+        border: 3px solid cyan;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+    }
+
+    .header-h1 {
+        margin: 0;
+        font-size: 2rem;
+        color: white;
+        font-family: "Romanesco" !important;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+/* Móviles medianos */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* Laptops pequeñas */
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* Escritorios estándar */
+@media (min-width: 1281px) and (max-width: 1600px) {
+
+    .dispositivo {
+        width: 94%;
+        height: 500px;
+    }
+
+    .dispositivo-pc {
+        border: 50px solid yellow;
+        display: flex;
+    }
+
+    .dispositivo-telefono {
+        border: 50px solid cyan;
+        display: none;
+    }
+}
+
+/* Pantallas grandes / TVs Full HD */
+@media (min-width: 1601px) and (max-width: 1919px) {}
+
+/* TVs Full HD y más */
+@media (min-width: 1920px) and (max-width: 3839px) {}
+
+/* TVs 4K Ultra HD */
+@media (min-width: 3840px) {}
