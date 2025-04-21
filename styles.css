@@ -9,11 +9,12 @@ body {
     flex-direction: column;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-  }
+}
 
 .artes-estadisticas {
     font-size: 1.3rem;
@@ -55,29 +56,66 @@ html, body {
     font-family: "Romanesco" !important;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  @keyframes oscilar {
+}
+
+@keyframes oscilar {
     0% {
-      transform: translateX(-25%);
+        transform: translateX(-25%);
     }
+
     50% {
-      transform: translateX(-50%);
+        transform: translateX(-50%);
     }
+
     100% {
         transform: translateX(0%);
-      }
-  }
+    }
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-texto {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.footer-texto span {
+    all: initial;
+    margin: 0;
+    margin-left: 1rem;
+    cursor: pointer;
+}
 
 header {
     color: white;
     padding: 20px;
 
-    background-image: url('/img/Rafael_Irizarry.jpeg') ;
+    background-image: url('/img/Rafael_Irizarry.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.header-h1 {
+    margin: 0;
+    background: cyan;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.header-h1 p {
+    margin: 0;
+    margin-left: 5rem;
+    font-size: 3rem;
+    color: white;
 }
 
 .header-mensaje {
@@ -88,6 +126,14 @@ header {
     background-color: crimson;
     color: white;
     padding: 1rem;
+}
+
+.header-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid gray;
 }
 
 h1,
@@ -151,24 +197,10 @@ nav ul li a {
     text-align: center;
 }
 
-footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.footer-texto {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-
-.footer-texto span {
-    all: initial;
-    margin: 0;
-    margin-left: 1rem;
-    cursor: pointer;
+.romanesco-regular {
+    font-family: "Romanesco";
+    font-weight: 400;
+    font-style: normal;
 }
 
 .main {
