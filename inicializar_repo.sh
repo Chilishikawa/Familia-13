@@ -7,6 +7,6 @@ git add README.md
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Chilishikawa/Familia-13.git
+git remote add origin https://github.com/Chilishikawa/Familia-11.git
 
-echo "✅ Repositorio inicializado y configurado con GitHub: Familia-13"
+echo "✅ Repositorio inicializado y configurado con GitHub: Familia-11"

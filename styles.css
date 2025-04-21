@@ -1,443 +1,376 @@
+/* Estilos generales */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+.artes-estadisticas {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.cabecera {
+    padding-top: 3rem;
+}
+
+.carrera-del-futuro {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.cianware-noticias {
+    overflow: hidden;
+    height: 150px;
+    width: 500%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid red;
+    padding: 1rem;
+}
+
+.cianware-noticias p {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    animation: oscilar 20s ease-in-out infinite alternate;
+    position: relative;
+    min-width: 100%;
+    text-align: center;
+    font-size: 2.7rem !important;
+    font-family: "Romanesco" !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @keyframes oscilar {
+    0% {
+      transform: translateX(-25%);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+      }
+  }
+
+header {
+    color: white;
+    padding: 20px;
+
+    background-image: url('/img/Rafael_Irizarry.jpeg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+    padding: 1rem;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 0;
+    font-size: 36px;
 }
 
 h2 {
-    font-size: 7.5rem;
-    margin-top: 0;
+    font-size: 24px;
 }
 
-h4 {
-    margin-top: 0;
+.letra-animada {
+    all: unset;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
-.bitoh {
-    display: flex;
-    padding: 1rem;
-    width: 100%;
-}
-
-.bitoh-texto {
+.mensaje-a-los-niños {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid gray;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 1rem;
-    width: 40%;
-}
-
-.bitoh-texto .nombre {
-    font-size: 1.4rem;
-    margin: 0;
-}
-
-.bitoh-texto .titulo {
-    font-size: 10rem;
-    margin: 0;
-}
-
-.borde-perfiles {
-    border: 1px solid gray;
-}
-
-.dispositivo {
-    height: 500px;
-    width: 96%;
-}
-
-.familia {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
     align-items: center;
-    padding: 2rem;
 }
 
-.foto-perfil {
-    height: 50px !important;
-    width: 50px !important;
+.menu-link {
+    color: black;
+    font-size: 1.5rem;
+    background: crimson;
+    padding: 5px;
 }
 
-.foto-perfil-bitoh {
-    width: 52% !important;
-}
-
-.foto-perfil-hijo {
-    width: 60% !important;
-}
-
-header {
-    border: 3px solid cyan;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu-link:hover {
+    color: cyan;
     background: black;
 }
 
-.header-h1 {
-    margin: 0;
-    font-size: 3rem;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
     color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.hijos {
-    width: 100% !important;
-    padding: .5rem;
+#presentacion-section {
+    padding: 20px;
+    text-align: center;
 }
 
-.hijos .perfil {
-    display: flex;
-    padding: .5rem;
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-.hijos .perfil-texto {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: start;
-    align-items: center;
-    border: 1px solid gray;
-    padding: .5rem;
-
-}
-
-.hijos .perfil-texto .nombre {
-    font-size: .9rem;
-    margin: 0;
-}
-
-.hijos .perfil-texto .titulo {
-    font-size: 3rem;
-    margin: 0;
-}
-
-.logo {
-    width: 100%;
-    height: 800px;
-}
-
-.nietos {
-    width: 90%;
-}
-
-.nietos .perfil {
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
-    margin: .5rem;
-    width: 5%;
-}
-
-.nietos .perfil-texto {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: start;
-    align-items: center;
-    border: 1px solid gray;
-    padding: .5rem;
-    margin: 0;
-
-}
-
-.nietos .perfil-texto .nombre {
-    font-size: .5rem;
-    margin: 0;
-}
-
-.nietos .perfil-texto .titulo {
-    font-size: 2rem;
-    margin: 0;
-}
-
-.pagina {
-    text-align: justify;
-    border: 1px solid gray;
-    padding: 3rem;
-    width: 60%;
-}
-
-.perfil {
+.footer-texto {
     display: flex;
     justify-content: center;
-
+    align-items: end;
 }
 
-.perfiles-flex {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
-.perfil-hijo {
-    width: 25%;
+.footer-texto span {
+    all: initial;
+    margin: 0;
     margin-left: 1rem;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+
+    boder: 1px solid red;
+}
+
+.main a {
+    width: 100%;
+}
+
+.main iframe {
+    width: 100%;
+}
+
+.menu-item {
+    transition: all 0.5s ease-in-out;
+}
+
+.subtitulo {
+    font-size: 24px;
+    color: #333;
+}
+
+.texto {
+    font-size: 16px;
+    color: #555;
+}
+
+.pie-pagina {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-top: 5px solid #003366;
+    border-bottom: 3px solid #003366;
+}
+
+.vercel-1 {
+    width: 70%;
     margin-right: 1rem;
 }
 
-.perfil-nieto {
-    width: 12.5% !important;
-}
-
-.personaje {
-    display: flex;
-}
-
-.personaje .columna-1 {
-    width: 20%;
-    border: 1px solid gray;
-}
-
-.publicidad_01 {
-    height: 300px;
-    width: 300px;
-}
-
-.nema17-1 {
-    height: 100%;
-    width: 100%;
-}
-
-.romanesco-regular {
-    font-family: "Romanesco";
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* Ultra pequeños: hasta 281px */
-@media (max-width: 280px) {
-
-    .anzuelo {
-        width: 100% !important;
-    }
-
-    .caja-pregunta {}
-
-    .caja-pregunta h2 {
-        font-size: 1.5rem;
-    }
-
-    .caja-pregunta li {
-        border: 0px solid red;
-        display: flex;
-        align-items: center;
-        height: 30px;
-    }
-
-    .caja-pregunta p {
-        border: 0px solid red;
-        width: 125px;
-    }
-
-    .caja-pregunta-precandidatos li {
-        border: 0px solid red;
-        display: flex;
-        align-items: center;
-        height: 30px;
-    }
-
-    .caja-pregunta-precandidatos p {
-        border: 0px solid red;
-        position: relative;
-        left: -2rem;
-        width: 125px;
-    }
-
-    .color-oscuro-1 {
-        color: black;
-    }
-
-    .color-oscuro-2 {
-        color: navy;
-    }
-
-    .concurso {
-        padding: 1rem;
-        background: linear-gradient(135deg, white, #203a43, red);
-        animation: gradientShift 15s ease infinite;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: .7rem;
-        border: 5px solid gray;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .concurso button {
-        width: 10rem;
-        height: 5rem;
-        font-size: 2rem;
-        margin: auto;
-        margin-top: 1rem;
-    }
-
-    .concurso .fundaciones {
-        width: 75%;
-    }
-
-    .concurso .input {
-        width: 60% !important;
-        left: 5rem;
-    }
-
-    .concurso label {
-        width: 40% !important;
-    }
-
-    .concurso li {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    .concurso .linea {
-        border: 0px solid red;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center !important;
-    }
-
-    .concurso ul {
-        width: 90%;
-    }
-
-    @keyframes gradientShift {
-        0% {
-            background-position: 0% 50%;
-        }
-
-        50% {
-            background-position: 100% 50%;
-        }
-
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-
-    .dispositivo {
-        width: 71%;
-        height: 69vh;
-    }
-
-    .dispositivo-pc {
-        border: 50px solid yellow;
-        display: none;
-    }
-
-    .dispositivo-telefono {
-        border: 25px solid cyan;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-    }
-
-    #estadisticas-1 {
-        display: none;
-        border: 25px solid gold;
-    }
-
-    #fidelizacion-1 {
-        display: none;
-    }
-
-    footer {
-        background: radial-gradient(circle, crimson 0%, black 100%);
-        overflow: hidden;
-        color: white;
-        font-size: .65rem;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer .cianware {
-        width: 8rem;
-        margin-top: .8rem;
-    }
-
-    footer p {
-        margin: .2rem;
-    }
-
-    .fundaciones input {
-        position: absolute;
-        right: 1rem;
-    }
-
-    .fundaciones li {
-        border: 0px solid red;
-        display: flex;
-        align-items: center;
-        height: 30px;
-        position: relative;
-        left: -1rem;
+/* Estilos para pantallas grandes (escritorio) */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 18px;
     }
 
     header {
-        border: 3px solid cyan;
-        height: 100px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: black;
+        padding: 30px;
     }
 
-    .header-h1 {
-        margin: 0;
-        font-size: 2rem;
-        color: white;
-        font-family: "Romanesco" !important;
-        font-weight: 400;
-        font-style: normal;
-    }
-}
-
-/* Móviles medianos */
-@media (min-width: 481px) and (max-width: 767px) {}
-
-/* Tablets */
-@media (min-width: 768px) and (max-width: 1024px) {}
-
-/* Laptops pequeñas */
-@media (min-width: 1025px) and (max-width: 1280px) {}
-
-/* Escritorios estándar */
-@media (min-width: 1281px) and (max-width: 1600px) {
-
-    .dispositivo {
-        width: 94%;
-        height: 500px;
+    h1 {
+        font-size: 48px;
     }
 
-    .dispositivo-pc {
-        border: 50px solid yellow;
-        display: flex;
+    h2 {
+        font-size: 32px;
     }
 
-    .dispositivo-telefono {
-        border: 50px solid cyan;
-        display: none;
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+    #presentacion-section {
+        padding: 50px;
+    }
+
+    .menu-item {
+        font-size: 18px;
     }
 }
 
-/* Pantallas grandes / TVs Full HD */
-@media (min-width: 1601px) and (max-width: 1919px) {}
+/* Estilos para tabletas (dispositivos entre 600px y 1023px) */
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
 
-/* TVs Full HD y más */
-@media (min-width: 1920px) and (max-width: 3839px) {}
+    header {
+        padding: 25px;
+    }
 
-/* TVs 4K Ultra HD */
-@media (min-width: 3840px) {}
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        margin: 0 12px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    #presentacion-section {
+        padding: 40px;
+    }
+
+    .menu-item {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para móviles (dispositivos entre 320px y 599px) */
+@media screen and (max-width: 599px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    nav ul {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 5px;
+    }
+
+    footer img {
+        width: 8rem;
+    }
+
+    .pie-pagina p {
+        font-size: 5px !important;
+    }
+
+    #presentacion-section {
+        padding: 20px;
+    }
+
+    .menu-item {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para dispositivos muy pequeños (menor a 320px) */
+@media screen and (max-width: 319px) {
+    body {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        padding: 8px 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    #presentacion-section {
+        padding: 15px;
+    }
+
+    .menu-item {
+        font-size: 12px;
+    }
+}
