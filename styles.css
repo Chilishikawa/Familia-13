@@ -19,8 +19,10 @@ body {
 .artes-estadisticas {
     font-size: 1.3rem;
     margin: 0;
+    margin-top: 8px;
     padding: 1rem;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .cabecera {
@@ -206,7 +208,7 @@ nav ul li a {
 .main {
     display: flex;
 
-    boder: 1px solid red;
+    border: 0px solid red;
 }
 
 .main a {
