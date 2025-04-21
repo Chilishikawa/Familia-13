@@ -77,4 +77,8 @@ enlace.addEventListener('click', (e) => {
     e.preventDefault();
     audio.currentTime = 0; // reinicia el audio cada vez
     audio.play();
+
+    setTimeout(() => {
+        window.open('https://famiglia-cachetonne.vercel.app', '_blank');
+      }, 100); // espera 5 segundos (5000 milisegundos)
 });
